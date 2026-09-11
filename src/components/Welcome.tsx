@@ -7,7 +7,7 @@ export default function Welcome({ data, isEditor, onUpdateText }: PageProps) {
     <section
       id="welcome"
       aria-label={data.content.welcome.text}
-      className="relative w-full h-svh min-h-svh overflow-hidden flex items-center justify-center select-none py-8 px-4"
+      className="relative w-full h-svh min-h-svh overflow-hidden flex items-start justify-center select-none py-[12vh] px-4"
     >
       <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
         <img
@@ -25,7 +25,7 @@ export default function Welcome({ data, isEditor, onUpdateText }: PageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.25 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="font-modernline text-[clamp(22px,3.8vw,28px)] lg:text-[clamp(24px,2.2vw,32px)] text-[#4A3E20] mb-1 leading-none normal-case"
+          className="font-modernline text-[clamp(18px,3.2vw,24px)] lg:text-[clamp(20px,1.8vw,27px)] text-[#4A3E20] mb-1 leading-none normal-case"
         >
           {data.invite.label.text}
         </motion.p>
@@ -35,7 +35,7 @@ export default function Welcome({ data, isEditor, onUpdateText }: PageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.25 }}
           transition={{ duration: 1.3, ease: [0.16, 1, 0.3, 1], delay: 0.25 }}
-          className="font-religath text-[clamp(19px,4.5vw,25px)] lg:text-[clamp(24px,2.8vw,34px)] uppercase text-[#7A6840] mb-0.5 leading-[1.1] tracking-[0.04em] font-normal"
+          className="font-religath text-[clamp(16px,3.8vw,22px)] lg:text-[clamp(20px,2.3vw,29px)] uppercase text-[#7A6840] mb-0.5 leading-[1.1] tracking-[0.04em] font-normal"
         >
           {isEditor && onUpdateText ? (
             <input
@@ -53,7 +53,7 @@ export default function Welcome({ data, isEditor, onUpdateText }: PageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.25 }}
           transition={{ duration: 1.3, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-          className="font-religath text-[clamp(19px,4.5vw,25px)] lg:text-[clamp(24px,2.8vw,34px)] uppercase text-[#7A6840] mb-2.5 leading-[1.1] tracking-[0.04em] font-normal"
+          className="font-religath text-[clamp(16px,3.8vw,22px)] lg:text-[clamp(20px,2.3vw,29px)] uppercase text-[#7A6840] mb-2.5 leading-[1.1] tracking-[0.04em] font-normal"
         >
           {isEditor && onUpdateText ? (
             <input
