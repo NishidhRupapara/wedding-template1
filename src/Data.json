@@ -1,0 +1,564 @@
+{
+  "brideName": {
+    "id": "bride_name",
+    "text": "Maya",
+    "type": "text"
+  },
+  "groomName": {
+    "id": "groom_name",
+    "text": "Mihir",
+    "type": "text"
+  },
+  "groomFullName": {
+    "id": "groom_full_name",
+    "text": "Mihir Kapoor",
+    "type": "text"
+  },
+  "brideFullName": {
+    "id": "bride_full_name",
+    "text": "Maya Sharma",
+    "type": "text"
+  },
+  "weddingDay": {
+    "id": "wedding_day",
+    "text": "Saturday",
+    "type": "text"
+  },
+  "weddingDate": {
+    "id": "wedding_date",
+    "text": "01 DECEMBER 2026",
+    "type": "text"
+  },
+  "weddingVenue": {
+    "id": "wedding_venue",
+    "text": "It Park",
+    "type": "text"
+  },
+  "weddingMapQuery": {
+    "id": "wedding_map",
+    "text": "It Park , Mota Varachha",
+    "type": "text"
+  },
+  "weddingMapUrl": {
+    "id": "wedding_map_url",
+    "text": "https://www.google.com/maps/search/?api=1&query=It%20Park%20%2C%20Mota%20Varachha",
+    "type": "text"
+  },
+  "venueCity": {
+    "id": "venue_city",
+    "text": "Mota Varachha",
+    "type": "text"
+  },
+  "venueState": {
+    "id": "venue_state",
+    "text": "Gujarat",
+    "type": "text"
+  },
+  "hashtag": {
+    "id": "hashtag_main",
+    "text": "#MayaWedsMihir",
+    "type": "text"
+  },
+  "hashtagTagline": {
+    "id": "hashtag_tagline",
+    "text": "Tag your moments · Share the love",
+    "type": "text"
+  },
+  "countDown": {
+    "id": "countdown_target_date",
+    "date": "2026-12-01T11:00:00",
+    "type": "countDown"
+  },
+  "brideParents": {
+    "id": "bride_parents",
+    "text": "Mr. & Mrs. Sharma",
+    "type": "text"
+  },
+  "groomParents": {
+    "id": "groom_parents",
+    "text": "Mr. & Mrs. Kapoor",
+    "type": "text"
+  },
+  "rsvpMobileNumber": {
+    "id": "rsvp_mobile_number",
+    "text": "919664787828",
+    "type": "mobileNumber"
+  },
+  "rsvpMessage": {
+    "id": "rsvp_message",
+    "text": "Confirm your attendance and share your wishes with the couple.",
+    "type": "text"
+  },
+  "invite": {
+    "blessing": {
+      "id": "invite_blessing",
+      "text": "With the blessings of the divine\nand the love of our families",
+      "type": "text"
+    },
+    "label": {
+      "id": "invite_label",
+      "text": "Together we invite you to celebrate",
+      "type": "text"
+    }
+  },
+  "content": {
+    "saveTheDate": {
+      "id": "content_save_the_date",
+      "text": "Save the Date",
+      "type": "text"
+    },
+    "and": {
+      "id": "content_and",
+      "text": "and",
+      "type": "text"
+    },
+    "gettingMarried": {
+      "id": "content_getting_married",
+      "text": "Are Getting Married",
+      "type": "text"
+    },
+    "scroll": {
+      "id": "content_scroll",
+      "text": "Scroll",
+      "type": "text"
+    },
+    "music": {
+      "id": "content_music",
+      "text": "Music",
+      "type": "text"
+    },
+    "musicOn": {
+      "id": "content_music_on",
+      "text": "Music On",
+      "type": "text"
+    },
+    "share": {
+      "id": "content_share",
+      "text": "Share",
+      "type": "text"
+    },
+    "copied": {
+      "id": "content_copied",
+      "text": "Copied",
+      "type": "text"
+    },
+    "moments": {
+      "id": "content_moments",
+      "text": "Our Moments",
+      "type": "text"
+    },
+    "celebratingMoments": {
+      "id": "content_celebrating_moments",
+      "text": "Celebrating the Moments",
+      "type": "text"
+    },
+    "scrollToStackMoments": {
+      "id": "content_scroll_to_stack_moments",
+      "text": "Scroll to stack moments",
+      "type": "text"
+    },
+    "keepScrolling": {
+      "id": "content_keep_scrolling",
+      "text": "Keep scrolling",
+      "type": "text"
+    },
+    "welcome": {
+      "id": "content_welcome",
+      "text": "Welcome",
+      "type": "text"
+    },
+    "venue": {
+      "id": "content_venue",
+      "text": "Our Venue",
+      "type": "text"
+    },
+    "scanForLocation": {
+      "id": "content_scan_for_location",
+      "text": "Scan for Location",
+      "type": "text"
+    },
+    "openLocation": {
+      "id": "content_open_location",
+      "text": "Open Location",
+      "type": "text"
+    },
+    "copyAddress": {
+      "id": "content_copy_address",
+      "text": "Copy Address",
+      "type": "text"
+    },
+    "addressCopied": {
+      "id": "content_address_copied",
+      "text": "Address Copied",
+      "type": "text"
+    },
+    "schedule": {
+      "id": "content_schedule",
+      "text": "Wedding Schedule",
+      "type": "text"
+    },
+    "countdown": {
+      "id": "content_countdown",
+      "text": "Countdown",
+      "type": "text"
+    },
+    "footerCraftedBy": {
+      "id": "content_footer_crafted_by",
+      "text": "Crafted By",
+      "type": "text"
+    },
+    "footerBrand": {
+      "id": "content_footer_brand",
+      "text": "Inviteque",
+      "type": "text"
+    },
+    "footerWatermark": {
+      "id": "content_footer_watermark",
+      "text": "preview inviteque",
+      "type": "text"
+    },
+    "footerLineOne": {
+      "id": "content_footer_line_one",
+      "text": "Create Beautiful Digital Invitations.",
+      "type": "text"
+    },
+    "footerLineTwo": {
+      "id": "content_footer_line_two",
+      "text": "Share Love. Share Moments.",
+      "type": "text"
+    },
+    "heroLabel": {
+      "id": "content_hero_label",
+      "text": "Wedding Invitation",
+      "type": "text"
+    },
+    "shareInvitation": {
+      "id": "content_share_invitation",
+      "text": "Share digital invitation",
+      "type": "text"
+    },
+    "scrollToMoments": {
+      "id": "content_scroll_to_moments",
+      "text": "Scroll to Our Moments section",
+      "type": "text"
+    }
+  },
+  "memory": [
+    {
+      "id": "memory_1",
+      "quote": {
+        "id": "memory_quote_1",
+        "text": "In your arms, I have found my forever home.",
+        "type": "text"
+      },
+      "fallback": {
+        "id": "memory_fallback_1",
+        "url": "/assets/templates/midnight-waltz/sample-photo-1.svg",
+        "type": "image"
+      }
+    },
+    {
+      "id": "memory_2",
+      "quote": {
+        "id": "memory_quote_2",
+        "text": "Every love story is beautiful, but ours is my favorite.",
+        "type": "text"
+      },
+      "fallback": {
+        "id": "memory_fallback_2",
+        "url": "/assets/templates/midnight-waltz/sample-photo-2.svg",
+        "type": "image"
+      }
+    },
+    {
+      "id": "memory_3",
+      "quote": {
+        "id": "memory_quote_3",
+        "text": "Two hearts, one soul, a lifetime of beautiful moments.",
+        "type": "text"
+      },
+      "fallback": {
+        "id": "memory_fallback_3",
+        "url": "/assets/templates/midnight-waltz/sample-photo-3.svg",
+        "type": "image"
+      }
+    },
+    {
+      "id": "memory_4",
+      "quote": {
+        "id": "memory_quote_4",
+        "text": "Together is our favorite place to be.",
+        "type": "text"
+      },
+      "fallback": {
+        "id": "memory_fallback_4",
+        "url": "/assets/templates/midnight-waltz/sample-photo-3.svg",
+        "type": "image"
+      }
+    }
+  ],
+  "weddingEvents": [
+    {
+      "id": "mehendi",
+      "name": {
+        "id": "name_mehendi",
+        "text": "Mehendi",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_mehendi",
+        "text": "11 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_mehendi",
+        "text": "2:00 PM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_mehendi",
+        "text": "Garden Pavilion",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_mehendi",
+        "text": "Henna artistry, folk music, and the scent of marigold.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_mehendi",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586591431-624692521-icon-mehendi.webp"
+      },
+      "mapsLink": {
+        "id": "map_mehendi",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    },
+    {
+      "id": "haldi",
+      "name": {
+        "id": "name_haldi",
+        "text": "Haldi",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_haldi",
+        "text": "11 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_haldi",
+        "text": "10:00 AM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_haldi",
+        "text": "Crystal Hall",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_haldi",
+        "text": "Golden hues, saffron paste, and laughter in the morning air.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_haldi",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586590859-990150038-icon-haldi.webp"
+      },
+      "mapsLink": {
+        "id": "map_haldi",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    },
+    {
+      "id": "cocktail",
+      "name": {
+        "id": "name_cocktail",
+        "text": "Cocktail",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_cocktail",
+        "text": "11 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_cocktail",
+        "text": "7:30 PM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_cocktail",
+        "text": "Zenana Courtyard",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_cocktail",
+        "text": "Elegance under the stars with cocktails and conversation.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_cocktail",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586590476-806447828-icon-cocktail.webp"
+      },
+      "mapsLink": {
+        "id": "map_cocktail",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    },
+    {
+      "id": "pre-wedding",
+      "name": {
+        "id": "name_pre_wedding",
+        "text": "Pre‑Wedding",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_pre_wedding",
+        "text": "11 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_pre_wedding",
+        "text": "9:00 PM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_pre_wedding",
+        "text": "Rooftop Terrace",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_pre_wedding",
+        "text": "Intimate blessings with family before the big day.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_pre_wedding",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586592613-427745872-icon-sagan.webp"
+      },
+      "mapsLink": {
+        "id": "map_pre_wedding",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    },
+    {
+      "id": "shaadi",
+      "name": {
+        "id": "name_shaadi",
+        "text": "Shaadi",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_shaadi",
+        "text": "12 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_shaadi",
+        "text": "11:00 AM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_shaadi",
+        "text": "Ballroom & Gardens",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_shaadi",
+        "text": "Seven vows, one lifetime — the ceremony that begins forever.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_shaadi",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586593002-645882165-icon-shaadi.webp"
+      },
+      "mapsLink": {
+        "id": "map_shaadi",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    },
+    {
+      "id": "reception",
+      "name": {
+        "id": "name_reception",
+        "text": "Reception",
+        "type": "text"
+      },
+      "date": {
+        "id": "date_reception",
+        "text": "12 Dec 2026",
+        "type": "text"
+      },
+      "time": {
+        "id": "time_reception",
+        "text": "7:00 PM",
+        "type": "text"
+      },
+      "venue": {
+        "id": "venue_reception",
+        "text": "Grand Terrace",
+        "type": "text"
+      },
+      "desc": {
+        "id": "desc_reception",
+        "text": "Dance, dine, and celebrate as the newlyweds take the floor.",
+        "type": "text"
+      },
+      "icon": {
+        "id": "icon_reception",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788586592040-512523279-icon-reception.webp"
+      },
+      "mapsLink": {
+        "id": "map_reception",
+        "type": "link",
+        "url": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Jodhpur"
+      }
+    }
+  ],
+  "carouselPhotos": [
+    {
+      "id": "photo_1",
+      "image": {
+        "id": "img_gal_1",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788265131392-198060310-download19.jfif"
+      }
+    },
+    {
+      "id": "photo_2",
+      "image": {
+        "id": "img_gal_2",
+        "type": "image",
+        "url": "https://cdn0.weddingwire.in/article/4651/original/1280/jpeg/131564-df-photo-company.jpeg"
+      }
+    },
+    {
+      "id": "photo_3",
+      "image": {
+        "id": "img_gal_3",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788265131511-588874183-download17.jfif"
+      }
+    },
+    {
+      "id": "photo_4",
+      "image": {
+        "id": "img_gal_4",
+        "type": "image",
+        "url": "https://media.craftyart.cloud/assets/image/1788265131570-945807986-download16.jfif"
+      }
+    }
+  ]
+}

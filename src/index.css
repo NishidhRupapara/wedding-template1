@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-religath {
+    font-family: 'Cinzel', 'Italiana', 'Playfair Display', serif;
+  }
+  .font-modernline {
+    font-family: 'Alex Brush', 'Great Vibes', cursive, sans-serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-parisienne {
+    font-family: 'Parisienne', cursive;
+  }
+}
+
+@keyframes goldShimmer {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.gold-shimmer {
+  background: linear-gradient(110deg, transparent 25%, rgba(181, 146, 60, 0.85) 50%, transparent 75%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 4s ease-in-out infinite;
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 0.55;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(4px);
+  }
+}
+
+.animate-scroll-bob {
+  animation: pulseSubtle 2s ease-in-out infinite;
+}
+
+@keyframes welcomeFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-welcome-fade {
+  opacity: 0;
+  animation: welcomeFadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes memoryCardSway {
+  0%, 100% {
+    transform: rotate(var(--base-rot, -3deg)) translateY(0);
+  }
+  50% {
+    transform: rotate(var(--base-rot, -3deg)) translateY(-4px);
+  }
+}
+
+@keyframes leafFlutter {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(4deg);
+  }
+}
+
+.animate-leaf-flutter {
+  animation: leafFlutter 4s ease-in-out infinite;
+}
+
+@keyframes floatGently {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes lanternGlow {
+  0%, 100% {
+    opacity: 0.7;
+    filter: drop-shadow(0 0 4px rgba(181, 146, 60, 0.4));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 10px rgba(181, 146, 60, 0.8));
+  }
+}
+
+.animate-float-gently {
+  animation: floatGently 3.5s ease-in-out infinite;
+}
+
+.animate-lantern-glow {
+  animation: lanternGlow 3s ease-in-out infinite;
+}
